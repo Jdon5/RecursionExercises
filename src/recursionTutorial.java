@@ -12,11 +12,24 @@ public class recursionTutorial {
         if(num<1) return 1;// base case
         return num* factorial(num-1);//recursive
     }
+    static int power(int base, int exponent){
+        if(exponent == 0){
+            return 1;
+        }
+        else if(exponent == 1){
+            return base;
+        }
+        else {
+           return power(base, exponent-1)*base;
+        }
+    }
 
 
     public static void main(String[] args) {
         //walk(5);
         System.out.println(factorial(5));
+        
+        System.out.println(power(2,3));
         
     }
 }
