@@ -1,6 +1,6 @@
 public class Fibonacci {
 
-    //7. Recursive GCD of Two Numbers
+    // exercise 3. Recursive Nth Fibonacci Number
     static int fibonacciCalc(int num){
         if(num==0){
             return 0;
