@@ -16,9 +16,6 @@ public class recursionTutorial {
         if(exponent == 0){
             return 1;
         }
-        else if(exponent == 1){
-            return base;
-        }
         else {
            return power(base, exponent-1)*base;
         }
@@ -29,7 +26,7 @@ public class recursionTutorial {
         //walk(5);
         System.out.println(factorial(5));
         
-        System.out.println(power(2,3));
+        System.out.println(power(2,0));
         
     }
 }
